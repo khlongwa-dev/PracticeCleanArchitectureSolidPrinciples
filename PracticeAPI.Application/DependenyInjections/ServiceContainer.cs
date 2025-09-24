@@ -8,6 +8,7 @@ namespace PracticeAPI.Application.DependenyInjections
 {
     public static class ServiceContainer
     {
+        /*This is necess*/
         public static IServiceCollection AddApplicationServices(this IServiceCollection service)
         {
             service.AddScoped<IEmployeeServices, EmployeeServices>();
