@@ -10,5 +10,7 @@ namespace PracticeAPI.Application.UseCaseInterfaces
         Task AddEmployeeAsync(CreateEmployeeDto createDto);
         Task<bool> DeleteEmployeeByIdAsync(int id);
         Task UpdateEmployeeAsync(UpdateEmployeeDto updateDto, Employee employee);
+
+        /// what could be missing
     }
 }
